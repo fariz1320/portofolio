@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio Fariz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Rizz Art</div>
+
+        <div class="menu-toggle" id="menu-toggle">
+          <span>&#9776;</span> <!-- Hamburger icon -->
+        </div>
+
+        <ul id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </nav>
+      
+
+  <section id="home">
+    <img src="./p.jpg" alt="Foto Fariz" class="profile-pic">
+    <h1>Hi, I'm Fariz Radita</h1>
+    <p>Saya seorang yang suka menggambar dan mempelajari coding</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Nama saya Fariz Radita. Saya memiliki minat besar dalam dunia seni visual seperti menggambar dan desain grafis, serta mengembangkan berbagai proyek pemrograman. Bagi saya, seni dan teknologi adalah kombinasi yang sempurna untuk mengekspresikan ide.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <img src="./1.jpg" alt="Skill 1" class="skill-img">
+        <p>Draw japanese languange alphabet</p>
+      </div>
+      <div class="skill">
+        <img src="./2.jpg" alt="Skill 2" class="skill-img">
+        <p>Draw caandi prambanan destination</p>
+      </div>
+      <div class="skill">
+        <img src="./3.jpg" alt="Skill 3" class="skill-img">
+        <p>Make login page web</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: farizradita@gmail.com</p>
+    <p>Instagram: @fariz_artcode</p>
+    <p>GitHub: <a href="https://github.com/farizradita" target="_blank">github.com/farizradita</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 By Fariz Radita.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+  
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+  
+
+</body>
+</html>
